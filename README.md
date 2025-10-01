@@ -40,7 +40,7 @@ python urlchecker.py urls.txt -o report.html -c 50 -v
 - `-o, --output`: Output HTML file (default: url_results.html)
 - `-c, --concurrency`: Number of concurrent requests (default: 20)
 - `-t, --timeout`: Request timeout in seconds (default: 10)
-- `-d, --domain`: Filter by domain with wildcard support (e.g., *.medibuddy.in)
+- `-d, --domain`: Filter by domain with wildcard support (e.g., *.example.com)
 - `-i, --include`: Include additional status codes (e.g., 401,429)
 - `-v, --verbose`: Verbose output (print per-URL progress)
 

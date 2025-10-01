@@ -80,12 +80,6 @@ Optimized for large datasets:
 - HEAD requests first for efficiency, with intelligent fallback to GET on 405/501 errors
 - No response body reads unless absolutely necessary - uses Content-Length headers
 
-**HTML Report Scalability:**
-- Optimized for typical bug bounty use cases: 1k-20k URLs
-- Client-side filtering uses separate counters for fast status updates
-- Filter status indicators remain visible and accurate regardless of dataset size
-- For datasets approaching 100k URLs, consider that all results are rendered in the HTML (most hidden by default). While functional, browser performance may degrade with extremely large datasets. For true 100k+ scale, consider processing results in batches or implementing virtualization
-
 ## Testing
 
 Run with sample URLs:
